@@ -1,7 +1,7 @@
 [project]
 name = "engenharia-de-dados-apache-spark"
 version = "0.1.0"
-description = ""
+description = "Projeto Apache Spark com Apache Iceberg e Delta Lake"
 authors = [
     {name = "Guichardx2",email = "jeancharles.g.guichard@gmail.com"}
 ]
