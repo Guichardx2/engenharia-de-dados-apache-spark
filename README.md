@@ -2,19 +2,21 @@
 > Trabalho de engenharia de dados com o tema: Apache spark com delta lake e apache iceberg
 
 ### Tecnologias utilizadas
-[![My Skills](https://skillicons.dev/icons?i=py,spark)](https://skillicons.dev)
+- Python
 - Spark
 - Apache Iceberg
 - Delta lake
 
 ### Pré Requisitos
-pre reqs para rodar o projeto
+- Um ambiente virtual linux para que consiga rodar todo o projeto sem mais dificuldades
+#### Recomendados: 
+- Wsl para rodar somente por comandos 
+- Maquina virtual linux 
+
 ### Instalação
-```Aqui ira os comandos de download```
-### Como utilizar o projeto
-```Passo a passo para rodar o projeto```
-### Executando os testes deste projeto
-```Como executar as requisições```
+Cada um dos métodos terá suas instalações
+Porém será necessario para os dois:
+
 ### Documentação
 Documentos utilizados para realizar o desenvolvimento do projeto
 
