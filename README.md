@@ -16,7 +16,10 @@
 ### Instalação
 Cada um dos métodos terá suas instalações
 Porém será necessario para os dois:
-
+- python
+- pipx
+- poetry
+- venv
 ### Documentação
 Documentos utilizados para realizar o desenvolvimento do projeto
 
