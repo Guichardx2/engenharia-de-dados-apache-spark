@@ -63,6 +63,8 @@ Documentações utilizadas para suporte de código:
 
 > [Apache iceberg Docs](https://iceberg.apache.org/docs/1.5.2/)
 
+> [MkDocs](https://www.mkdocs.org/) 
+
 Repositórios consultados para desenvolvimento:
 > [Projeto Apache Spark com Delta Lake](https://github.com/jlsilva01/spark-delta)
 
