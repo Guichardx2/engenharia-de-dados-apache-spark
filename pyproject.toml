@@ -1,20 +1,21 @@
-[project]
+[tool.poetry]
 name = "engenharia-de-dados-apache-spark"
 version = "0.1.0"
 description = "Projeto Apache Spark com Apache Iceberg e Delta Lake"
-authors = [
-    {name = "Guichardx2",email = "jeancharles.g.guichard@gmail.com"}
-]
+authors = ["Guichardx2 jeancharles.g.guichard@gmail.com",
+           "Lucas Silva lucasrs202@gmail.com",
+           "Matheus Daminelli matheus.daminelli@gmail.com"
+           ]
 readme = "README.md"
-requires-python = ">=3.12"
-dependencies = [
-    "mkdocs (>=1.6.1,<2.0.0)",
-    "pyspark (>=3.5.5,<4.0.0)",
-    "delta-spark (==3.0)",
-    "jupyterlab (>=4.4.1,<5.0.0)"
-]
+package-mode = false
 
+[tool.poetry.dependencies]
+python = ">=3.12"
+mkdocs = ">=1.6.1,<2.0.0"
+pyspark = ">=3.5.5,<4.0.0"
+delta-spark = "==3.0"
+jupyterlab = ">=4.4.1,<5.0.0"
 
 [build-system]
-requires = ["poetry-core>=2.0.0,<3.0.0"]
+requires = ["poetry-core>=1.0.0"]
 build-backend = "poetry.core.masonry.api"
