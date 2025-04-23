@@ -5,6 +5,8 @@
 # spark-delta/spark-warehouse/
 # spark-iceberg/spark-warehouse/
 
+# Ignora as documentações de build
+site/
 #Ignora em qualquer parte do repositório
 **/RAW/
 **/spark-warehouse/
