@@ -54,11 +54,22 @@ Dentro do jupyter notebook você deve selecionar o arquivo ipynb, após escolher
 ![Spark](assets/spark.png)
 
 ## Documentação
+  (Preencher)
+
+## Referências
 Documentações utilizadas para suporte de código:
 
-[Delta Lake Docs](https://docs.delta.io/latest/index.html)
+> [Delta Lake Docs](https://docs.delta.io/latest/index.html)
 
-[Apache iceberg Docs](https://iceberg.apache.org/docs/1.5.2/)
+> [Apache iceberg Docs](https://iceberg.apache.org/docs/1.5.2/)
+
+Repositórios consultados para desenvolvimento:
+> [Projeto Apache Spark com Delta Lake](https://github.com/jlsilva01/spark-delta)
+
+> [Projeto Apache Spark com Apache Iceberg](https://github.com/jlsilva01/spark-iceberg)
+
+Turotial do Youtube
+> [DataWay BR](https://www.youtube.com/watch?v=eOrWEsZIfKU&t=2365s) 
 
 ## Equipe
 | [<img src="https://avatars.githubusercontent.com/u/130867213?v=4" width=115><br><sub>Jean Charles Guichard Guichard</sub>](https://github.com/Guichardx2) |  [<img src="https://avatars.githubusercontent.com/u/97752019?v=4" width=115><br><sub>Lucas da Rosa da Silva</sub>](https://github.com/Lorrust) |  [<img src="https://avatars.githubusercontent.com/u/125694923?v=4" width=115><br><sub>Matheus Augusto Daminelli</sub>](https://github.com/daminellis) |
