@@ -168,6 +168,24 @@ files = [
 dev = ["backports.zoneinfo", "freezegun (>=1.0,<2.0)", "jinja2 (>=3.0)", "pytest (>=6.0)", "pytest-cov", "pytz", "setuptools", "tzdata"]
 
 [[package]]
+name = "backrefs"
+version = "5.8"
+description = "A wrapper around re and regex that adds additional back references."
+optional = false
+python-versions = ">=3.9"
+files = [
+    {file = "backrefs-5.8-py310-none-any.whl", hash = "sha256:c67f6638a34a5b8730812f5101376f9d41dc38c43f1fdc35cb54700f6ed4465d"},
+    {file = "backrefs-5.8-py311-none-any.whl", hash = "sha256:2e1c15e4af0e12e45c8701bd5da0902d326b2e200cafcd25e49d9f06d44bb61b"},
+    {file = "backrefs-5.8-py312-none-any.whl", hash = "sha256:bbef7169a33811080d67cdf1538c8289f76f0942ff971222a16034da88a73486"},
+    {file = "backrefs-5.8-py313-none-any.whl", hash = "sha256:e3a63b073867dbefd0536425f43db618578528e3896fb77be7141328642a1585"},
+    {file = "backrefs-5.8-py39-none-any.whl", hash = "sha256:a66851e4533fb5b371aa0628e1fee1af05135616b86140c9d787a2ffdf4b8fdc"},
+    {file = "backrefs-5.8.tar.gz", hash = "sha256:2cab642a205ce966af3dd4b38ee36009b31fa9502a35fd61d59ccc116e40a6bd"},
+]
+
+[package.extras]
+extras = ["regex"]
+
+[[package]]
 name = "beautifulsoup4"
 version = "4.13.4"
 description = "Screen-scraping library"
@@ -1231,6 +1249,46 @@ platformdirs = ">=2.2.0"
 pyyaml = ">=5.1"
 
 [[package]]
+name = "mkdocs-material"
+version = "9.6.12"
+description = "Documentation that simply works"
+optional = false
+python-versions = ">=3.8"
+files = [
+    {file = "mkdocs_material-9.6.12-py3-none-any.whl", hash = "sha256:92b4fbdc329e4febc267ca6e2c51e8501fa97b2225c5f4deb4d4e43550f8e61e"},
+    {file = "mkdocs_material-9.6.12.tar.gz", hash = "sha256:add6a6337b29f9ea7912cb1efc661de2c369060b040eb5119855d794ea85b473"},
+]
+
+[package.dependencies]
+babel = ">=2.10,<3.0"
+backrefs = ">=5.7.post1,<6.0"
+colorama = ">=0.4,<1.0"
+jinja2 = ">=3.1,<4.0"
+markdown = ">=3.2,<4.0"
+mkdocs = ">=1.6,<2.0"
+mkdocs-material-extensions = ">=1.3,<2.0"
+paginate = ">=0.5,<1.0"
+pygments = ">=2.16,<3.0"
+pymdown-extensions = ">=10.2,<11.0"
+requests = ">=2.26,<3.0"
+
+[package.extras]
+git = ["mkdocs-git-committers-plugin-2 (>=1.1,<3)", "mkdocs-git-revision-date-localized-plugin (>=1.2.4,<2.0)"]
+imaging = ["cairosvg (>=2.6,<3.0)", "pillow (>=10.2,<11.0)"]
+recommended = ["mkdocs-minify-plugin (>=0.7,<1.0)", "mkdocs-redirects (>=1.2,<2.0)", "mkdocs-rss-plugin (>=1.6,<2.0)"]
+
+[[package]]
+name = "mkdocs-material-extensions"
+version = "1.3.1"
+description = "Extension pack for Python Markdown and MkDocs Material."
+optional = false
+python-versions = ">=3.8"
+files = [
+    {file = "mkdocs_material_extensions-1.3.1-py3-none-any.whl", hash = "sha256:adff8b62700b25cb77b53358dad940f3ef973dd6db797907c49e3c2ef3ab4e31"},
+    {file = "mkdocs_material_extensions-1.3.1.tar.gz", hash = "sha256:10c9511cea88f568257f960358a467d12b970e1f7b2c0e5fb2bb48cab1928443"},
+]
+
+[[package]]
 name = "nbclient"
 version = "0.10.2"
 description = "A client library for executing notebooks. Formerly nbconvert's ExecutePreprocessor."
@@ -1358,6 +1416,21 @@ files = [
     {file = "packaging-25.0-py3-none-any.whl", hash = "sha256:29572ef2b1f17581046b3a2227d5c611fb25ec70ca1ba8554b24b0e69331a484"},
     {file = "packaging-25.0.tar.gz", hash = "sha256:d443872c98d677bf60f6a1f2f8c1cb748e8fe762d2bf9d3148b5599295b0fc4f"},
 ]
+
+[[package]]
+name = "paginate"
+version = "0.5.7"
+description = "Divides large result sets into pages for easier browsing"
+optional = false
+python-versions = "*"
+files = [
+    {file = "paginate-0.5.7-py2.py3-none-any.whl", hash = "sha256:b885e2af73abcf01d9559fd5216b57ef722f8c42affbb63942377668e35c7591"},
+    {file = "paginate-0.5.7.tar.gz", hash = "sha256:22bd083ab41e1a8b4f3690544afb2c60c25e5c9a63a30fa2f483f6c60c8e5945"},
+]
+
+[package.extras]
+dev = ["pytest", "tox"]
+lint = ["black"]
 
 [[package]]
 name = "pandocfilters"
@@ -1537,6 +1610,24 @@ files = [
 
 [package.extras]
 windows-terminal = ["colorama (>=0.4.6)"]
+
+[[package]]
+name = "pymdown-extensions"
+version = "10.14.3"
+description = "Extension pack for Python Markdown."
+optional = false
+python-versions = ">=3.8"
+files = [
+    {file = "pymdown_extensions-10.14.3-py3-none-any.whl", hash = "sha256:05e0bee73d64b9c71a4ae17c72abc2f700e8bc8403755a00580b49a4e9f189e9"},
+    {file = "pymdown_extensions-10.14.3.tar.gz", hash = "sha256:41e576ce3f5d650be59e900e4ceff231e0aed2a88cf30acaee41e02f063a061b"},
+]
+
+[package.dependencies]
+markdown = ">=3.6"
+pyyaml = "*"
+
+[package.extras]
+extra = ["pygments (>=2.19.1)"]
 
 [[package]]
 name = "pyspark"
@@ -2321,4 +2412,4 @@ type = ["pytest-mypy"]
 [metadata]
 lock-version = "2.0"
 python-versions = ">=3.12"
-content-hash = "ad23e06c47dd21158f921ed64c10f11352a81d2b1c9ff8e47edef1b1d07be866"
+content-hash = "266e56fa4eeac851ce67e9e1e75ba758da7a8b70d5b50987df67f982d23479c3"

@@ -1,0 +1,14 @@
+site_name: Minha Documentação
+nav:
+  - Início: index.md
+  - Delta Lake: delta-lake.md
+  - Apache Iceberg: apache-iceberg.md
+theme:
+  name: material
+  palette:
+    scheme: slate
+    primary: indigo
+    accent: pink
+  font:
+    text: Roboto
+    code: Roboto Mono
