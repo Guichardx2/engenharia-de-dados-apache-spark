@@ -15,6 +15,7 @@
 - Maquina virtual linux 
 
 Para o desenvolvimento deste projeto foi utilizado o seguinte Linux: Ubuntu 24.04.
+
 ![Versão linux](assets/version.png)
 
 ### Instalação
@@ -27,13 +28,16 @@ Será necessario:
 
 ### Documentação
 [Delta Lake Docs](https://docs.delta.io/latest/index.html)
+
 [Apache iceberg Docs](https://iceberg.apache.org/docs/1.5.2/)
 
 ## Iniciando as variaveis de ambiente
 - Alterando java home
-'''echo 'export JAVA_HOME="/usr/lib/jvm/java-11-openjdk-amd64"' >> ~/.bashrc
-   echo 'export PATH="$JAVA_HOME/bin:$PATH"' >> ~/.bashrc
-   source ~/.bashrc'''
+```
+echo 'export JAVA_HOME="/usr/lib/jvm/java-11-openjdk-amd64"' >> ~/.bashrc
+echo 'export PATH="$JAVA_HOME/bin:$PATH"' >> ~/.bashrc
+source ~/.bashrc
+```
 
 ## Comandos utilizados para setup do ambiente
 - Acessando o shell do poetry
