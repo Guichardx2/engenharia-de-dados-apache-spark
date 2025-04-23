@@ -68,7 +68,7 @@ Repositórios consultados para desenvolvimento:
 
 > [Projeto Apache Spark com Apache Iceberg](https://github.com/jlsilva01/spark-iceberg)
 
-Turotial do Youtube
+Tutorial do Youtube
 > [DataWay BR](https://www.youtube.com/watch?v=eOrWEsZIfKU&t=2365s) 
 
 ## Equipe
