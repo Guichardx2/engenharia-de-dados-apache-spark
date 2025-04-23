@@ -1,9 +1,9 @@
 {
   "format-version" : 2,
-  "table-uuid" : "6cffb550-04dc-4299-9bbb-5a5162b20471",
+  "table-uuid" : "bc91fe1b-3e5f-4768-b393-0b3799521204",
   "location" : "spark-warehouse/iceberg/cliente_iceberg",
   "last-sequence-number" : 0,
-  "last-updated-ms" : 1745358558818,
+  "last-updated-ms" : 1745425799635,
   "last-column-id" : 5,
   "current-schema-id" : 0,
   "schemas" : [ {
