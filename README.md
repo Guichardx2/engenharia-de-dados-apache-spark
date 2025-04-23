@@ -54,7 +54,7 @@ Dentro do jupyter notebook você deve selecionar o arquivo ipynb, após escolher
 ![Spark](assets/spark.png)
 
 ## Documentação
-![Documentação diretamente no mkdocs](https://guichardx2.github.io/engenharia-de-dados-apache-spark/)
+[Documentação diretamente no mkdocs](https://guichardx2.github.io/engenharia-de-dados-apache-spark/)
 
 ## Referências
 Documentações utilizadas para suporte de código:
