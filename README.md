@@ -3,7 +3,7 @@
 
 ## Tecnologias utilizadas
 - Python
-- Spark
+- Apache Spark
 - Apache Iceberg
 - Delta lake
 - Jupyter lab
